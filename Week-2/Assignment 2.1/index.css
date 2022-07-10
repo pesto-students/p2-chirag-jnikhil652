@@ -1,0 +1,39 @@
+.container {
+    padding-inline: 10rem;
+}
+
+.h1 {
+    padding-inline: 22rem;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.col-md-6 {
+    width: 50%;
+    padding-inline: 2rem;
+}
+
+.row {
+    display: flex;
+}
+
+.img-fluid {
+    max-width: 75%;
+    padding-inline: 12.5%;
+}
+
+p {
+    padding-block: 2rem;
+}
+
+form input {
+    width: 100%;
+}
+
+form textarea {
+    width: 100%;
+}
+
+form .content {
+    padding-block: 0.5rem;
+}

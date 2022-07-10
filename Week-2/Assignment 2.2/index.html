@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        padding-top: 10%;
+        padding-inline: 30%;
+    }
+    
+    a {
+        color: #ab3e5b;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #222222;
+        border: none;
+    }
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 1em;
+    }
+    
+    .wrapper {
+        width: 250px;
+        height: 250px;
+        margin: 50px auto;
+    }
+    
+    h1 {
+        margin: 120px 0 0 0;
+    }
+    
+    .ms-logo {
+        display: block;
+        height: 100px;
+        width: 200px;
+        position: relative;
+    }
+    
+    .ms-logo .red {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: -webkit-linear-gradient(top, rgb(255, 0, 0) 0%, rgb(255, 0, 0) 100%);
+    }
+    
+    .ms-logo .green {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0px;
+        left: 110px;
+        background: -webkit-linear-gradient(top, rgb(255, 255, 0) 0%, rgb(255, 255, 0) 100%);
+    }
+    
+    .ms-logo .blue {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 110px;
+        left: 0px;
+        background: -webkit-linear-gradient(top, rgb(0, 0, 255) 0%, rgb(0, 0, 255) 100%);
+    }
+    
+    .ms-logo .yellow {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 110px;
+        left: 110px;
+        background: -webkit-linear-gradient(top, rgb(0, 125, 0) 0%, rgb(0, 125, 0) 100%);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="ms-logo">
+                <p class="red"></p>
+                <p class="green"></p>
+                <p class="blue"></p>
+                <p class="yellow"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
