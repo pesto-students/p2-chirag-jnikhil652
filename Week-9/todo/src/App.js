@@ -14,7 +14,6 @@ function App() {
     let id = parseInt(Math.random() * 100000);
     setTodo([...todo, { id, name: input, completed: false }]);
     setinput("");
-    console.log(todo);
   }
 
   const completeTodo = (event) => {
@@ -28,6 +27,7 @@ function App() {
     ));
     // setTodo()
   }
+  console.log("App");
   return (
     <>
       <div className="top">

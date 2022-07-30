@@ -1,0 +1,34 @@
+.logo {
+  font-size: 3rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  margin-left: 20%;
+}
+
+.header {
+  display: inline-flex;
+  height: 3rem;
+}
+
+.header-menu {
+  display: inline-flex;
+  margin-left: 100%;
+}
+
+.header-menu li {
+  display: inline-flex;
+  padding-inline: 1rem;
+}
+
+.header-login li {
+  display: inline-flex;
+  padding-inline: 1rem;
+}
+
+.header-login {
+  display: inline-flex;
+  margin-left: 320%;
+}
+.body{
+  background-color: rosybrown;
+}

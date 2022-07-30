@@ -1,6 +1,7 @@
 
 
 export default function Todo ({todoList,completeTodo}){
+    console.log("todo");
     return(
         <table>
             {todoList.map(element=>{
